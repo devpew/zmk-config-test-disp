@@ -92,7 +92,7 @@ include:
     snippet: common-config
     artifact-name: sweep_peripheral_right
 
-  - board: seeeduino_xiao_ble
+  - board: nice_nano_v2
     shield: sweep_dongle dongle_display
     snippet: common-config zmk-usb-logging studio-rpc-usb-uart
     cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000
